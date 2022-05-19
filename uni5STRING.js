@@ -44,7 +44,7 @@ console.log(str.toUpperCase()) // deixa as letras maiusculas
 console.log(str.toLowerCase()) // deixa as letras minusculas
 console.log(str.replace('lobo')) // ele substitui o bolo do texto pela palavra mosntro. 1ª procura a palavra e 2º substitui 
 console.log(str.replaceAll('homem', 'pessoa')) // igual o replace, mas substitui por todas as palavras 'homem' esse texto
-console.log(str.replace(/homem/gi, 'pessoa')) // substitue
+console.log(str.replace(/homem/, 'pessoa')) // substitue
 console.log(str.startsWith('fdfjd')) // veririfca se a string comeca com a string que vc digitar, vai retornar vdd ou falso
 console.log(str.endsWith('homem')) // verifica se termina com essa palavra
 console.log(str.slice(12)) // recorta a string, pega a partir do indice 12 em diante
