@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadrado {
+    width: 500px;
+    height: 500px;
+    background: #2186c4;
+   /*animation-name: rotacionar; 
+    animation-duration: .1.5s;
+    animation-iteration-count: infinite; */
+
+}
+
+@keyframes rotacionar { /* fazendo animações, quando tiver rotando 10% da animação faz isso.. com 20 faz isso... etc */
+    from {
+        transform: rotate(0);
+    } to {
+        transform: rotate(360deg);
+    }
+}

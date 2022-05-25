@@ -1,0 +1,10 @@
+hypertext transfer protocol
+
+{
+    GET
+    POST
+    PUT
+    DELETE
+}
+
+API -> APPLICATION PROGRAMMING
